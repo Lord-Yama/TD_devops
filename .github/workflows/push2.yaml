@@ -23,4 +23,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/td_devops:repo_dock
+          tags: ${{ secrets.DOCKER_USERNAME }}/td_devops:repo_docker
